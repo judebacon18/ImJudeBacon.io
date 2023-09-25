@@ -1,0 +1,115 @@
+body{
+
+	background-color: skyblue;
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'josefin Sans', sans-serif ;
+box-sizing: border-box;
+}
+
+
+
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+}
+
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+
+}
+
+
+.navbar .logo{
+width: 160px;
+cursor: pointer;
+margin-top: -0%;
+margin-left: -3%;
+}
+
+
+
+
+span{
+	color: navajowhite;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+
+nav ul li a:hover{
+	color: black;
+	text-decoration: none;
+	transition: 1s;
+}
+
+nav ul li a{
+	color: orangered;
+	text-decoration: none;
+	font-weight: 1000;
+	font-size: 25px;
+	
+
+}
+.btn{
+	background-color: skyblue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 25px;
+	border-radius: 25px;
+	transition: transform .2s;
+
+}
+.btn:hover{
+	transform: scale(1.1);
+	
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+
+}
+h2.logo{
+	font-size: 50px;
+	color: powderblue;
+
+}
+h3{
+	color: #323213;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color:skyblue;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+h2{
+	color: grey;
+	font-size: 50px;
+}
+nav li a{
+	color: darkblue;
+}
